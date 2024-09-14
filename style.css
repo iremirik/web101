@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    height: 100vh; 
+    font-family: Georgia, sans-serif;
+    background-image: url('bonomo.jpg'); 
+   background-size: cover;  
+   background-position: center;
+   background-repeat: no-repeat;
+}
+      
+
+
+.calculator{
+    background-color: rgba(204, 162, 77, 0.756);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px , orange;
+    display: flex;
+    flex-direction: column;
+}
+
+ #display{
+    justify-content: center;
+    height: 18px;
+    text-align: right;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+ .buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+ }
+
+ .btn{
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(82, 55, 4, 0.832);
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    background-color: rgb(248, 161, 0);
+
+  
+}
